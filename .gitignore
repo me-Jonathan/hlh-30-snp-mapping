@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Jupyter / editor cruft
+.ipynb_checkpoints/
+
+# Large intermediate / raw sequencing data -- do not commit to GitHub.
+# These belong in an SRA/ENA submission or a Zenodo archive (see README).
+*.bam
+*.bai
+*.bcf
+*.sam
+*.fastq.gz
+*.fq.gz
+# Raw and intermediate VCFs (the small, final candidate tables live in results/)
+data/**/raw_output/*.vcf
+data/**/for_me/*.vcf
+
+# SLURM logs
+*.out
+logs/

@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: >-
+  If you use this pipeline or its outputs, please cite both this repository and
+  the associated paper.
+title: HLH-30 SNP-based mapping pipeline (MiModD, C. elegans)
+abstract: >-
+  Whole-genome-sequencing pipeline for Hawaiian (CB4856) SNP-based
+  mapping-by-sequencing in Caenorhabditis elegans, used to identify causative
+  mutations from a forward-genetic screen in the hlh-30/TFEB background. Built
+  on MiModD and SnpEff and run on a SLURM + Singularity HPC cluster.
+type: software
+authors:
+  - given-names: Jonathan
+    family-names: Kölschbach
+    alias: J.K.
+license: MIT
+repository-code: "https://github.com/me-Jonathan/hlh-30-snp-mapping"
+keywords:
+  - C. elegans
+  - mapping-by-sequencing
+  - Hawaiian variant mapping
+  - CB4856
+  - MiModD
+  - SnpEff
+  - whole-genome sequencing
+  - forward genetic screen
+preferred-citation:
+  type: article
+  title: >-
+    A TFEB-TGFβ axis systemically regulates diapause, stem cell resilience and
+    protects against a senescence-like state
+  authors:
+    - given-names: Tim J.
+      family-names: Nonninger
+    - given-names: Jennifer
+      family-names: Mak
+    - given-names: Birgit
+      family-names: Gerisch
+    - given-names: Valentina
+      family-names: Ramponi
+    - given-names: Kazuto
+      family-names: Kawamura
+    - given-names: Roberto
+      family-names: Ripa
+    - given-names: Klara
+      family-names: Schilling
+    - given-names: Christian
+      family-names: Latza
+    - given-names: Jonathan
+      family-names: Kölschbach
+    - given-names: Manuel
+      family-names: Serrano
+    - given-names: Adam
+      family-names: Antebi
+  journal: Nature Aging
+  year: 2025
+  volume: 5
+  start: 1340
+  end: 1357
+  doi: 10.1038/s43587-025-00911-4
